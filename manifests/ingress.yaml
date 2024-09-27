@@ -3,10 +3,10 @@ kind: Ingress
 metadata:
   name: ui-ingress
   annotations:
-    kubernetes.io/ingress.class: addon-http-application-routing
+    kubernetes.io/ingress.class: azure/application-gateway
 spec:
   rules:
-  - host: todo-ui.devopsinsiders.online
+  - host: 
     http:
       paths:
       - pathType: Prefix
