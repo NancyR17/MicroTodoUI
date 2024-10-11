@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: azure/application-gateway
 spec:
   rules:
-  - host: 
+  - host: frontend.cptiwari.cloud
     http:
       paths:
       - pathType: Prefix
