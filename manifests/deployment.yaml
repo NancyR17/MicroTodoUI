@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: todoappui
-        image: alok1408/fend:cp
+        image: nancyrani/fend:cp
         ports:
         - containerPort: 80
